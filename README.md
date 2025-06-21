@@ -1,19 +1,19 @@
- Password Guessing Game – Project Overview
+🔐 Password Guessing Game – Project Overview
 
 This Python-based terminal game is a word guessing challenge where players try to unveil a secret word within a set number of attempts. The player selects from three difficulty levels—Easy, Medium, and Hard—each with progressively complex words and varying limits for attempts and hints.
 
 
 The game provides:
 
--Real-time hint feedback using Wordle-style letter comparisons
+->Real-time hint feedback using Wordle-style letter comparisons
 
--Hint system to reveal letters one by one (limited use)
+->Hint system to reveal letters one by one (limited use)
 
--Time tracking to measure how long the player took
+->Time tracking to measure how long the player took
 
--Scoring system based on difficulty and number of attempts
+->>Scoring system based on difficulty and number of attempts
 
--At the end of the game, players can see their score, time taken, and choose to replay.
+->At the end of the game, players can see their score, time taken, and choose to replay.
 
 
 🧠 Programming Language
@@ -23,26 +23,26 @@ Chosen for its simplicity, readability, and rich built-in libraries—perfect fo
 
 🧰 Modules & Libraries Used
 
--random
+->random
 Used to randomly select a secret word from the word list.
 Also used to randomly reveal unrevealed letters during hints.
 
--time
+->time
 Used to track gameplay duration, by capturing the start and end timestamps of a session.
 
 
 💡 Concepts & Features Implemented
 
--Conditional logic and loops
+->Conditional logic and loops
 
--Functions for modular design
+->Functions for modular design
 
--Dynamic difficulty scaling
+->Dynamic difficulty scaling
 
--User input validation
+->User input validation
 
--List and string manipulation
+->List and string manipulation
 
--Hint logic similar to Wordle (with custom feedback: correct, present, or missing)
+->Hint logic similar to Wordle (with custom feedback: correct, present, or missing)
 
--Replay loop for continuous gaming fun
+->Replay loop for continuous gaming fun
